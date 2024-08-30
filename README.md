@@ -27,15 +27,15 @@ To set up the virtual assistant on your local machine, follow these steps:
 ## Usage Guide
 
  - **Time:** "Alexa, what's the time?"
- - Play Music: "Alexa, play [song name]."
- - Wikipedia Search: "Alexa, tell me about [topic]."
- - Jokes: "Alexa, tell me a joke."
- - Web Search: If the command doesn't match any of the above, the assistant will perform a web search.
+ - **Play Music:** "Alexa, play [song name]."
+ - **Wikipedia Search:** "Alexa, tell me about [topic]."
+ - **Jokes:** "Alexa, tell me a joke."
+ - **Web Search:** If the command doesn't match any of the above, the assistant will perform a web search.
 
 ## Acknowledgements
 
-- SpeechRecognition: For recognizing voice input.
-- pyttsx3: For converting text to speech.
-- pywhatkit: For playing YouTube videos and performing web searches.
-- wikipedia-api: For fetching information from Wikipedia.
-- pyjokes: For generating jokes
+- **SpeechRecognition:** For recognizing voice input.
+- **pyttsx3:** For converting text to speech.
+- **pywhatkit:** For playing YouTube videos and performing web searches.
+- **wikipedia-api:** For fetching information from Wikipedia.
+- **pyjokes:** For generating jokes
