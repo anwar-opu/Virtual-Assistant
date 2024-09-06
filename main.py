@@ -15,7 +15,7 @@ def talk(text):
     alexa.say(text)
     alexa.runAndWait()
 
-
+talk("as salam alaykum can i help you?")
 def take_command():
     try:
         with sr.Microphone() as source:
@@ -38,6 +38,10 @@ def run_alexa():
         time = datetime.datetime.now().strftime('%I:%M %p')
         print(time)
         talk('Current time is ' + time)
+    elif 'date' in command:
+        date = datetime.datetime.now().strftime('%A, %B,%d, %Y')
+        print(date)
+        talk('Today is' + date)
     elif 'play' in command:
         song = command.replace('play', '')
         talk('playing' + song)
@@ -49,6 +53,9 @@ def run_alexa():
         talk(info)
     elif 'jokes' in command:
         talk(pyjokes.get_joke())
+    elif 'bye' in command or 'allah hafiz' in command:
+        talk('Khuda Hafiz')
+        exit()
     else:
         talk('i did not get it but i am going to search it for you')
         pywhatkit.search(command)

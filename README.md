@@ -5,10 +5,12 @@ This repository contains a Python-based virtual assistant that functions similar
 ## Features
 
 - **Tell Time:** Get the current time.
+- **Tell Date:** Get the current date.
 - **Play Music:** Play any song from YouTube.
 - **Wikipedia Search:** Get a brief summary of a topic from Wikipedia.
 - **Jokes:** Listen to a random joke.
 - **Web Search:** Automatically search the web for unrecognized commands.
+- **Stop:** program stop and exit.
 
 ## Installation
 
@@ -27,10 +29,12 @@ To set up the virtual assistant on your local machine, follow these steps:
 ## Usage Guide
 
  - **Time:** "Alexa, what's the time?"
+ - **Date:** "Alexa, what is today's date?"
  - **Play Music:** "Alexa, play [song name]."
  - **Wikipedia Search:** "Alexa, tell me about [topic]."
  - **Jokes:** "Alexa, tell me a joke."
  - **Web Search:** If the command doesn't match any of the above, the assistant will perform a web search.
+ - **Exit:** "Alexa, good bye or allah hafiz "
 
 ## Acknowledgements
 
